@@ -1,0 +1,148 @@
+/* Created by Artisteer v4.1.0.59861 */
+
+.pla-header, #pla-header-bg, .pla-layout-cell, .pla-layout-wrapper, .pla-footer, .pla-nav, #pla-hmenu-bg, .pla-sheet,
+.clearfix {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+
+.pla-textblock > div {
+   display: block;
+   line-height: normal;
+   zoom: 1;
+}
+
+.pla-header
+{
+   z-index: 1;
+   background-image: [headerimage];
+   background-position: [headerposition];
+}
+
+#pla-header-bg 
+{
+   display: none;
+}
+
+.pla-hmenu>li, .pla-hmenu>li>a
+{
+   display: inline !important;
+   zoom: 1;
+   float: none !important;
+   vertical-align: top;
+}
+ul.pla-hmenu, ul.pla-hmenu ul {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+#pla-hmenu-bg 
+{
+   display: none;
+}
+
+ul.pla-hmenu>li:first-child {
+   padding-right:7px;
+}
+ul.pla-hmenu>li{
+   zoom:expression(runtimeStyle.zoom=1,insertBefore(document.createElement('span'),firstChild).className='pla-hmenu-separator');
+}
+ul.pla-hmenu>li>span.pla-hmenu-separator
+{
+   position:absolute;
+   display: block;
+   top:0;
+   left:  -7px;
+   width: 7px;
+   height: 29px;
+   background: url('images/menuseparator.png') center center no-repeat;
+}
+ul.pla-hmenu>li:first-child>span.pla-hmenu-separator
+{
+   display:none;
+}
+
+ul.pla-hmenu ul, .desktop-nav ul.pla-hmenu>li.ext:hover>a{
+   background-color: #EEAF04 !important;
+}
+
+.pla-content-layout, .pla-content-layout-row, .pla-layout-cell 
+{
+   display: block;
+   zoom: 1;
+}
+.pla-layout-cell
+{
+   position:relative;
+   float: left;
+   clear: right;
+}
+
+input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+* html input[type="text"]
+{
+   margin :0;
+}
+
+form.pla-search>input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+form.pla-search div>input[type="text"]
+{
+   width: 100%;
+}
+
+* html form.pla-search>input[type="text"] 
+{
+   margin :0;
+}
+
+ul.pla-vmenu, ul.pla-vmenu ul, ul.pla-vmenu li{
+   zoom: 1;
+}
+
+ul.pla-vmenu ul 
+{
+   background-color: transparent;
+}
+
+.pla-postcontent {
+   height: 1%;
+}
+
+.close-alt, .arrow-right-alt, .arrow-left-alt {
+   display: block !important;
+}
+.cw, .ccw {
+   display: none !important;
+}
+
+.pla-sidebar1 
+{
+   width: auto;
+   float:none;
+   background: none !important;
+   border: none !important;
+   zoom:expression(runtimeStyle.zoom=1, parentNode.parentNode.insertBefore(document.createElement('div'),parentNode.parentNode.firstChild).className='pla-sidebar1-bg' + (className.indexOf('pla-sidebar1-fix') == -1 ? '' : ' pla-sidebar1-bg-fix' ));
+}
+
+.pla-sidebar1-bg 
+{
+   border-left:1px solid #FDE39D;
+   position:absolute;
+   z-index:-2;
+   direction: ltr;
+   right:  0;
+   bottom:0;
+   top:0;
+   width: 175px;
+   overflow:hidden;
+   display:block;
+   background-color: #2D2D2D;
+}
+

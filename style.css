@@ -1,0 +1,2731 @@
+
+#pla-main {
+    background: #FFFFFF url('images/page.jpeg') top center fixed;
+    margin: 0 auto;
+    font-size: 12px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: justify;
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    left: 0;
+    top: 0;
+    cursor: default;
+    overflow: hidden;
+}
+
+table, ul.pla-hmenu {
+    font-size: 12px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Reset buttons border. It's important for input and button tags. 
+ * border-collapse should be separate for shadow in IE. 
+ */
+.pla-button {
+    border-collapse: separate;
+    -webkit-background-origin: border !important;
+    -moz-background-origin: border !important;
+    background-origin: border-box !important;
+    background: #FDDA7B;
+    background: linear-gradient(top, #FEF1CD 0, #FCC42C 100%) no-repeat;
+    background: -webkit-linear-gradient(top, #FEF1CD 0, #FCC42C 100%) no-repeat;
+    background: -moz-linear-gradient(top, #FEF1CD 0, #FCC42C 100%) no-repeat;
+    background: -o-linear-gradient(top, #FEF1CD 0, #FCC42C 100%) no-repeat;
+    background: -ms-linear-gradient(top, #FEF1CD 0, #FCC42C 100%) no-repeat;
+    background: linear-gradient(top, #FEF1CD 0, #FCC42C 100%) no-repeat;
+    -svg-background: linear-gradient(top, #FEF1CD 0, #FCC42C 100%) no-repeat;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.2);
+    border: 1px solid #FCC839;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 25px;
+}
+
+.pla-postcontent,
+.pla-postheadericons,
+.pla-postfootericons,
+.pla-blockcontent,
+ul.pla-vmenu a {
+    text-align: left;
+}
+
+.pla-postcontent,
+.pla-postcontent li,
+.pla-postcontent table,
+.pla-postcontent a,
+.pla-postcontent a:link,
+.pla-postcontent a:visited,
+.pla-postcontent a.visited,
+.pla-postcontent a:hover,
+.pla-postcontent a.hovered {
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.pla-postcontent p {
+    margin: 12px 0;
+}
+
+.pla-postcontent h1, .pla-postcontent h1 a, .pla-postcontent h1 a:link, .pla-postcontent h1 a:visited, .pla-postcontent h1 a:hover,
+.pla-postcontent h2, .pla-postcontent h2 a, .pla-postcontent h2 a:link, .pla-postcontent h2 a:visited, .pla-postcontent h2 a:hover,
+.pla-postcontent h3, .pla-postcontent h3 a, .pla-postcontent h3 a:link, .pla-postcontent h3 a:visited, .pla-postcontent h3 a:hover,
+.pla-postcontent h4, .pla-postcontent h4 a, .pla-postcontent h4 a:link, .pla-postcontent h4 a:visited, .pla-postcontent h4 a:hover,
+.pla-postcontent h5, .pla-postcontent h5 a, .pla-postcontent h5 a:link, .pla-postcontent h5 a:visited, .pla-postcontent h5 a:hover,
+.pla-postcontent h6, .pla-postcontent h6 a, .pla-postcontent h6 a:link, .pla-postcontent h6 a:visited, .pla-postcontent h6 a:hover,
+.pla-blockheader .t, .pla-blockheader .t a, .pla-blockheader .t a:link, .pla-blockheader .t a:visited, .pla-blockheader .t a:hover,
+.pla-vmenublockheader .t, .pla-vmenublockheader .t a, .pla-vmenublockheader .t a:link, .pla-vmenublockheader .t a:visited, .pla-vmenublockheader .t a:hover,
+.pla-headline, .pla-headline a, .pla-headline a:link, .pla-headline a:visited, .pla-headline a:hover,
+.pla-slogan, .pla-slogan a, .pla-slogan a:link, .pla-slogan a:visited, .pla-slogan a:hover,
+.pla-postheader, .pla-postheader a, .pla-postheader a:link, .pla-postheader a:visited, .pla-postheader a:hover {
+    font-size: 28px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+}
+
+.pla-postcontent a, .pla-postcontent a:link {
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    text-decoration: none;
+    color: #FFD400;
+}
+
+.pla-postcontent a:visited, .pla-postcontent a.visited {
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    text-decoration: underline;
+    color: #FFD400;
+}
+
+.pla-postcontent a:hover, .pla-postcontent a.hover {
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    text-decoration: underline;
+    color: #FCCF55;
+}
+
+.pla-postcontent h1 {
+    color: #A8A8A8;
+    font-size: 28px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+}
+
+.pla-blockcontent h1 {
+    font-size: 28px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+}
+
+.pla-postcontent h1 a, .pla-postcontent h1 a:link, .pla-postcontent h1 a:hover, .pla-postcontent h1 a:visited, .pla-blockcontent h1 a, .pla-blockcontent h1 a:link, .pla-blockcontent h1 a:hover, .pla-blockcontent h1 a:visited {
+    font-size: 28px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+}
+
+.pla-postcontent h2 {
+    color: #BFBFBF;
+    font-size: 22px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+}
+
+.pla-blockcontent h2 {
+    font-size: 22px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+}
+
+.pla-postcontent h2 a, .pla-postcontent h2 a:link, .pla-postcontent h2 a:hover, .pla-postcontent h2 a:visited, .pla-blockcontent h2 a, .pla-blockcontent h2 a:link, .pla-blockcontent h2 a:hover, .pla-blockcontent h2 a:visited {
+    font-size: 22px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+}
+
+.pla-postcontent h3 {
+    color: #FFD400;
+    margin-top: 18px;
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+}
+
+.pla-blockcontent h3 {
+    margin-top: 18px;
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+}
+
+.pla-postcontent h3 a, .pla-postcontent h3 a:link, .pla-postcontent h3 a:hover, .pla-postcontent h3 a:visited, .pla-blockcontent h3 a, .pla-blockcontent h3 a:link, .pla-blockcontent h3 a:hover, .pla-blockcontent h3 a:visited {
+    font-size: 18px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+}
+
+.pla-postcontent h4 {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+}
+
+.pla-blockcontent h4 {
+    font-size: 16px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+}
+
+.pla-postcontent h4 a, .pla-postcontent h4 a:link, .pla-postcontent h4 a:hover, .pla-postcontent h4 a:visited, .pla-blockcontent h4 a, .pla-blockcontent h4 a:link, .pla-blockcontent h4 a:hover, .pla-blockcontent h4 a:visited {
+    font-size: 16px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+}
+
+.pla-postcontent h5 {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+}
+
+.pla-blockcontent h5 {
+    font-size: 14px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+}
+
+.pla-postcontent h5 a, .pla-postcontent h5 a:link, .pla-postcontent h5 a:hover, .pla-postcontent h5 a:visited, .pla-blockcontent h5 a, .pla-blockcontent h5 a:link, .pla-blockcontent h5 a:hover, .pla-blockcontent h5 a:visited {
+    font-size: 14px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+}
+
+.pla-postcontent h6 {
+    color: #FEE8AD;
+    font-size: 14px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+}
+
+.pla-blockcontent h6 {
+    font-size: 14px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+}
+
+.pla-postcontent h6 a, .pla-postcontent h6 a:link, .pla-postcontent h6 a:hover, .pla-postcontent h6 a:visited, .pla-blockcontent h6 a, .pla-blockcontent h6 a:link, .pla-blockcontent h6 a:hover, .pla-blockcontent h6 a:visited {
+    font-size: 14px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+}
+
+header, footer, article, nav, #pla-hmenu-bg, .pla-sheet, .pla-hmenu a, .pla-vmenu a, .pla-slidenavigator > a, .pla-checkbox:before, .pla-radiobutton:before {
+    -webkit-background-origin: border !important;
+    -moz-background-origin: border !important;
+    background-origin: border-box !important;
+}
+
+header, footer, article, nav, #pla-hmenu-bg, .pla-sheet, .pla-slidenavigator > a, .pla-checkbox:before, .pla-radiobutton:before {
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    min-width: 970px;
+    color: #ECECEC;
+}
+
+.pla-header:before, #pla-header-bg:before, .pla-layout-cell:before, .pla-layout-wrapper:before, .pla-footer:before, .pla-nav:before, #pla-hmenu-bg:before, .pla-sheet:before {
+    width: 100%;
+    content: " ";
+    display: table;
+}
+
+.pla-header:after, #pla-header-bg:after, .pla-layout-cell:after, .pla-layout-wrapper:after, .pla-footer:after, .pla-nav:after, #pla-hmenu-bg:after, .pla-sheet:after,
+.cleared, .clearfix:after {
+    clear: both;
+    font: 0/0 serif;
+    display: block;
+    content: " ";
+}
+
+form {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+table.position {
+    position: relative;
+    width: 100%;
+    table-layout: fixed;
+}
+
+li h1, .pla-postcontent li h1, .pla-blockcontent li h1 {
+    margin: 1px;
+}
+
+li h2, .pla-postcontent li h2, .pla-blockcontent li h2 {
+    margin: 1px;
+}
+
+li h3, .pla-postcontent li h3, .pla-blockcontent li h3 {
+    margin: 1px;
+}
+
+li h4, .pla-postcontent li h4, .pla-blockcontent li h4 {
+    margin: 1px;
+}
+
+li h5, .pla-postcontent li h5, .pla-blockcontent li h5 {
+    margin: 1px;
+}
+
+li h6, .pla-postcontent li h6, .pla-blockcontent li h6 {
+    margin: 1px;
+}
+
+li p, .pla-postcontent li p, .pla-blockcontent li p {
+    margin: 1px;
+}
+
+.pla-shapes {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.pla-slider-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.pla-slidenavigator > a {
+    display: inline-block;
+    vertical-align: middle;
+    outline-style: none;
+    font-size: 1px;
+}
+
+.pla-slidenavigator > a:last-child {
+    margin-right: 0 !important;
+}
+
+.pla-slidecontainerheader {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.pla-slidecontainerheader .pla-slide-item {
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.pla-slidecontainerheader .pla-slide-item {
+    -webkit-transition: 600ms ease-in-out left;
+    -moz-transition: 600ms ease-in-out left;
+    -ms-transition: 600ms ease-in-out left;
+    -o-transition: 600ms ease-in-out left;
+    transition: 600ms ease-in-out left;
+    position: relative;
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.pla-slidecontainerheader .active, .pla-slidecontainerheader .next, .pla-slidecontainerheader .prev {
+    display: block;
+}
+
+.pla-slidecontainerheader .active {
+    left: 0;
+}
+
+.pla-slidecontainerheader .next, .pla-slidecontainerheader .prev {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.pla-slidecontainerheader .next {
+    left: 100%;
+}
+
+.pla-slidecontainerheader .prev {
+    left: -100%;
+}
+
+.pla-slidecontainerheader .next.forward, .pla-slidecontainerheader .prev.back {
+    left: 0;
+}
+
+.pla-slidecontainerheader .active.forward {
+    left: -100%;
+}
+
+.pla-slidecontainerheader .active.back {
+    left: 100%;
+}
+
+.pla-slideheader0 {
+    background-image: url('images/slideheader0-object189672003.png'), url('images/slideheader0.png');
+    background-size: 11.75% 58%, 100%;
+    background-position: 32px 18px, 0 0;
+    background-repeat: no-repeat;
+}
+
+.pla-slideheader1 {
+    background-image: url('images/slideheader1-object526823325.png'), url('images/slideheader1.png');
+    background-size: 10.72% 53%, 100%;
+    background-position: 40px 38px, 0 0;
+    background-repeat: no-repeat;
+}
+
+.pla-slidenavigatorheader {
+    display: inline-block;
+    position: absolute;
+    direction: ltr !important;
+    top: 176px;
+    left: 95.46%;
+    z-index: 101;
+    line-height: 0 !important;
+    -webkit-background-origin: border !important;
+    -moz-background-origin: border !important;
+    background-origin: border-box !important;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.pla-slidenavigatorheader {
+    background: #9C9C9C;
+    background: linear-gradient(top, rgba(194, 194, 194, 0.6) 0, rgba(128, 128, 128, 0.6) 84%, rgba(115, 115, 115, 0.6) 100%) no-repeat;
+    background: -webkit-linear-gradient(top, rgba(194, 194, 194, 0.6) 0, rgba(128, 128, 128, 0.6) 84%, rgba(115, 115, 115, 0.6) 100%) no-repeat;
+    background: -moz-linear-gradient(top, rgba(194, 194, 194, 0.6) 0, rgba(128, 128, 128, 0.6) 84%, rgba(115, 115, 115, 0.6) 100%) no-repeat;
+    background: -o-linear-gradient(top, rgba(194, 194, 194, 0.6) 0, rgba(128, 128, 128, 0.6) 84%, rgba(115, 115, 115, 0.6) 100%) no-repeat;
+    background: -ms-linear-gradient(top, rgba(194, 194, 194, 0.6) 0, rgba(128, 128, 128, 0.6) 84%, rgba(115, 115, 115, 0.6) 100%) no-repeat;
+    background: linear-gradient(top, rgba(194, 194, 194, 0.6) 0, rgba(128, 128, 128, 0.6) 84%, rgba(115, 115, 115, 0.6) 100%) no-repeat;
+    -svg-background: linear-gradient(top, rgba(194, 194, 194, 0.6) 0, rgba(128, 128, 128, 0.6) 84%, rgba(115, 115, 115, 0.6) 100%) no-repeat;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+
+    padding: 7px;
+
+}
+
+.pla-slidenavigatorheader > a {
+    background: #575757;
+    background: #575757;
+    background: #575757;
+    background: #575757;
+    background: #575757;
+    background: #575757;
+    background: #575757;
+    -svg-background: #575757;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    margin: 0 10px 0 0;
+
+    width: 10px;
+
+    height: 10px;
+}
+
+.pla-slidenavigatorheader > a.active {
+    background: #FDDB7C;
+    background: #FDDB7C;
+    background: #FDDB7C;
+    background: #FDDB7C;
+    background: #FDDB7C;
+    background: #FDDB7C;
+    background: #FDDB7C;
+    -svg-background: #FDDB7C;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    margin: 0 10px 0 0;
+
+    width: 10px;
+
+    height: 10px;
+}
+
+.pla-slidenavigatorheader > a:hover {
+    background: #AB7E03;
+    background: #AB7E03;
+    background: #AB7E03;
+    background: #AB7E03;
+    background: #AB7E03;
+    background: #AB7E03;
+    background: #AB7E03;
+    -svg-background: #AB7E03;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    margin: 0 10px 0 0;
+
+    width: 10px;
+
+    height: 10px;
+}
+
+.pla-footer .layout-item-0 {
+    color: #F0F0F0;
+}
+
+.pla-footer .layout-item-1 {
+    color: #F0F0F0;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.ie7 .pla-post .pla-layout-cell {
+    border: none !important;
+    padding: 0 !important;
+}
+
+.ie6 .pla-post .pla-layout-cell {
+    border: none !important;
+    padding: 0 !important;
+}
+
+.pla-sheet {
+    background: #2D2D2D;
+    background: rgba(45, 45, 45, 0.8);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin: 30px auto 0;
+    position: relative;
+    cursor: auto;
+    width: 970px;
+    z-index: auto !important;
+}
+
+.pla-header {
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+    margin: 0 auto;
+    height: 200px;
+    background-image: none;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: auto !important;
+}
+
+.responsive .pla-header {
+    background-image: none;
+    background-position: center center;
+}
+
+.pla-header > .widget {
+    position: absolute;
+    z-index: 101;
+}
+
+.pla-header .pla-slider-inner {
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.pla-nav {
+    background: #414141;
+    background: linear-gradient(top, #303030 0, #474747 40%, #4A4A4A 50%, #4A4A4A 100%) no-repeat;
+    background: -webkit-linear-gradient(top, #303030 0, #474747 40%, #4A4A4A 50%, #4A4A4A 100%) no-repeat;
+    background: -moz-linear-gradient(top, #303030 0, #474747 40%, #4A4A4A 50%, #4A4A4A 100%) no-repeat;
+    background: -o-linear-gradient(top, #303030 0, #474747 40%, #4A4A4A 50%, #4A4A4A 100%) no-repeat;
+    background: -ms-linear-gradient(top, #303030 0, #474747 40%, #4A4A4A 50%, #4A4A4A 100%) no-repeat;
+    background: linear-gradient(top, #303030 0, #474747 40%, #4A4A4A 50%, #4A4A4A 100%) no-repeat;
+    -svg-background: linear-gradient(top, #303030 0, #474747 40%, #4A4A4A 50%, #4A4A4A 100%) no-repeat;
+    padding: 4px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 499;
+    text-align: left;
+}
+
+ul.pla-hmenu a, ul.pla-hmenu a:link, ul.pla-hmenu a:visited, ul.pla-hmenu a:hover {
+    outline: none;
+    position: relative;
+    z-index: 11;
+}
+
+ul.pla-hmenu, ul.pla-hmenu ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style-type: none;
+}
+
+ul.pla-hmenu li {
+    position: relative;
+    z-index: 5;
+    display: block;
+    float: left;
+    background: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ul.pla-hmenu li:hover {
+    z-index: 10000;
+    white-space: normal;
+}
+
+ul.pla-hmenu:after, ul.pla-hmenu ul:after {
+    content: ".";
+    height: 0;
+    display: block;
+    visibility: hidden;
+    overflow: hidden;
+    clear: both;
+}
+
+ul.pla-hmenu, ul.pla-hmenu ul {
+    min-height: 0;
+}
+
+ul.pla-hmenu {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pla-nav:before {
+    content: ' ';
+}
+
+.pla-hmenu-extra1 {
+    position: relative;
+    display: block;
+    float: left;
+    width: auto;
+    height: auto;
+    background-position: center;
+}
+
+.pla-hmenu-extra2 {
+    position: relative;
+    display: block;
+    float: right;
+    width: auto;
+    height: auto;
+    background-position: center;
+}
+
+.pla-hmenu {
+    float: left;
+}
+
+.pla-menuitemcontainer {
+    margin: 0 auto;
+}
+
+ul.pla-hmenu > li {
+    margin-left: 7px;
+}
+
+ul.pla-hmenu > li:first-child {
+    margin-left: 3px;
+}
+
+ul.pla-hmenu > li:last-child, ul.pla-hmenu > li.last-child {
+    margin-right: 3px;
+}
+
+ul.pla-hmenu > li > a {
+    -webkit-border-radius: 0 5px;
+    -moz-border-radius: 0 5px;
+    border-radius: 0 5px;
+    border: 1px solid transparent;
+    padding: 0 17px;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    height: 29px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #D0D0D0;
+    line-height: 29px;
+    text-align: center;
+}
+
+.pla-hmenu a,
+.pla-hmenu a:link,
+.pla-hmenu a:visited,
+.pla-hmenu a.active,
+.pla-hmenu a:hover {
+    font-size: 14px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    text-align: left;
+}
+
+ul.pla-hmenu > li > a.active {
+    background: #FBC73A;
+    background: linear-gradient(top, #FBC123 0, #FBCE50 40%, #FBCE50 50%, #FBCE50 100%) no-repeat;
+    background: -webkit-linear-gradient(top, #FBC123 0, #FBCE50 40%, #FBCE50 50%, #FBCE50 100%) no-repeat;
+    background: -moz-linear-gradient(top, #FBC123 0, #FBCE50 40%, #FBCE50 50%, #FBCE50 100%) no-repeat;
+    background: -o-linear-gradient(top, #FBC123 0, #FBCE50 40%, #FBCE50 50%, #FBCE50 100%) no-repeat;
+    background: -ms-linear-gradient(top, #FBC123 0, #FBCE50 40%, #FBCE50 50%, #FBCE50 100%) no-repeat;
+    background: linear-gradient(top, #FBC123 0, #FBCE50 40%, #FBCE50 50%, #FBCE50 100%) no-repeat;
+    -svg-background: linear-gradient(top, #FBC123 0, #FBCE50 40%, #FBCE50 50%, #FBCE50 100%) no-repeat;
+    -webkit-border-radius: 0 5px;
+    -moz-border-radius: 0 5px;
+    border-radius: 0 5px;
+    border: 1px solid rgba(251, 199, 58, 0.3);
+    padding: 0 17px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+ul.pla-hmenu > li > a:visited,
+ul.pla-hmenu > li > a:hover,
+ul.pla-hmenu > li:hover > a {
+    text-decoration: none;
+}
+
+ul.pla-hmenu > li > a:hover, .desktop ul.pla-hmenu > li:hover > a {
+    background: #FDDA7B;
+    background: linear-gradient(top, #FDD25E 0, #FDDF8B 40%, #FDE090 50%, #FDE090 100%) no-repeat;
+    background: -webkit-linear-gradient(top, #FDD25E 0, #FDDF8B 40%, #FDE090 50%, #FDE090 100%) no-repeat;
+    background: -moz-linear-gradient(top, #FDD25E 0, #FDDF8B 40%, #FDE090 50%, #FDE090 100%) no-repeat;
+    background: -o-linear-gradient(top, #FDD25E 0, #FDDF8B 40%, #FDE090 50%, #FDE090 100%) no-repeat;
+    background: -ms-linear-gradient(top, #FDD25E 0, #FDDF8B 40%, #FDE090 50%, #FDE090 100%) no-repeat;
+    background: linear-gradient(top, #FDD25E 0, #FDDF8B 40%, #FDE090 50%, #FDE090 100%) no-repeat;
+    -svg-background: linear-gradient(top, #FDD25E 0, #FDDF8B 40%, #FDE090 50%, #FDE090 100%) no-repeat;
+    -webkit-border-radius: 0 5px;
+    -moz-border-radius: 0 5px;
+    border-radius: 0 5px;
+    border: 1px solid transparent;
+    padding: 0 17px;
+    margin: 0 auto;
+}
+
+ul.pla-hmenu > li > a:hover,
+.desktop ul.pla-hmenu > li:hover > a {
+    color: #694D02;
+    text-decoration: none;
+}
+
+ul.pla-hmenu > li:before {
+    position: absolute;
+    display: block;
+    content: ' ';
+    top: 0;
+    left: -7px;
+    width: 7px;
+    height: 29px;
+    background: url('images/menuseparator.png') center center no-repeat;
+}
+
+ul.pla-hmenu > li:first-child:before {
+    display: none;
+}
+
+ul.pla-hmenu li li a {
+    background: #414141;
+    background: transparent;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    padding: 0 22px;
+    margin: 0 auto;
+}
+
+ul.pla-hmenu li li {
+    float: none;
+    width: auto;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.desktop ul.pla-hmenu li li ul > li:first-child {
+    margin-top: 0;
+}
+
+ul.pla-hmenu li li ul > li:last-child {
+    margin-bottom: 0;
+}
+
+.pla-hmenu ul a {
+    display: block;
+    white-space: nowrap;
+    height: 23px;
+    min-width: 7em;
+    border: 0 solid transparent;
+    text-align: left;
+    line-height: 23px;
+    color: #F1F1F1;
+    font-size: 12px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    margin: 0;
+}
+
+.pla-hmenu ul a:link,
+.pla-hmenu ul a:visited,
+.pla-hmenu ul a.active,
+.pla-hmenu ul a:hover {
+    text-align: left;
+    line-height: 23px;
+    color: #F1F1F1;
+    font-size: 12px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    margin: 0;
+}
+
+ul.pla-hmenu li li:after {
+    display: block;
+    position: absolute;
+    content: ' ';
+    height: 0;
+    top: -4px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    border-bottom: 1px solid #FCCE92;
+}
+
+.desktop ul.pla-hmenu li li:first-child:before,
+.desktop ul.pla-hmenu li li:first-child:after {
+    display: none;
+}
+
+ul.pla-hmenu ul li a:hover, .desktop ul.pla-hmenu ul li:hover > a {
+    background: #414141;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    margin: 0 auto;
+}
+
+.pla-hmenu ul li a:hover {
+    color: #FDE297;
+}
+
+.desktop .pla-hmenu ul li:hover > a {
+    color: #FDE297;
+}
+
+ul.pla-hmenu ul:before {
+    background: #EEAF04;
+    -webkit-border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+    -webkit-box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.15);
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    content: ' ';
+    z-index: 1;
+}
+
+.desktop ul.pla-hmenu li:hover > ul {
+    visibility: visible;
+    top: 100%;
+}
+
+.desktop ul.pla-hmenu li li:hover > ul {
+    top: 0;
+    left: 100%;
+}
+
+ul.pla-hmenu ul {
+    visibility: hidden;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    background-image: url('images/spacer.gif');
+}
+
+.desktop ul.pla-hmenu > li > ul {
+    padding: 15px 35px 35px 35px;
+    margin: -10px 0 0 -30px;
+}
+
+.desktop ul.pla-hmenu ul ul {
+    padding: 35px 35px 35px 16px;
+    margin: -35px 0 0 -5px;
+}
+
+.desktop ul.pla-hmenu ul.pla-hmenu-left-to-right {
+    right: auto;
+    left: 0;
+    margin: -10px 0 0 -30px;
+}
+
+.desktop ul.pla-hmenu ul.pla-hmenu-right-to-left {
+    left: auto;
+    right: 0;
+    margin: -10px -30px 0 0;
+}
+
+.desktop ul.pla-hmenu li li:hover > ul.pla-hmenu-left-to-right {
+    right: auto;
+    left: 100%;
+}
+
+.desktop ul.pla-hmenu li li:hover > ul.pla-hmenu-right-to-left {
+    left: auto;
+    right: 100%;
+}
+
+.desktop ul.pla-hmenu ul ul.pla-hmenu-left-to-right {
+    right: auto;
+    left: 0;
+    padding: 35px 35px 35px 16px;
+    margin: -35px 0 0 -5px;
+}
+
+.desktop ul.pla-hmenu ul ul.pla-hmenu-right-to-left {
+    left: auto;
+    right: 0;
+    padding: 35px 16px 35px 35px;
+    margin: -35px -5px 0 0;
+}
+
+.desktop ul.pla-hmenu li ul > li:first-child {
+    margin-top: 0;
+}
+
+.desktop ul.pla-hmenu li ul > li:last-child {
+    margin-bottom: 0;
+}
+
+.desktop ul.pla-hmenu ul ul:before {
+    border-radius: 6px;
+    top: 30px;
+    bottom: 30px;
+    right: 30px;
+    left: 11px;
+}
+
+.desktop ul.pla-hmenu > li > ul:before {
+    top: 10px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+}
+
+.desktop ul.pla-hmenu > li > ul.pla-hmenu-left-to-right:before {
+    right: 30px;
+    left: 30px;
+}
+
+.desktop ul.pla-hmenu > li > ul.pla-hmenu-right-to-left:before {
+    right: 30px;
+    left: 30px;
+}
+
+.desktop ul.pla-hmenu ul ul.pla-hmenu-left-to-right:before {
+    right: 30px;
+    left: 11px;
+}
+
+.desktop ul.pla-hmenu ul ul.pla-hmenu-right-to-left:before {
+    right: 11px;
+    left: 30px;
+}
+
+.desktop ul.pla-hmenu > li.ext > a {
+    white-space: nowrap;
+}
+
+.desktop ul.pla-hmenu > li.ext > a:hover,
+.desktop ul.pla-hmenu > li.ext:hover > a,
+.desktop ul.pla-hmenu > li.ext:hover > a.active {
+    background: none;
+    /* default padding + border size */
+    padding: 4px 21px 1px 21px;
+    /* margin for shadow */
+    margin: -3px -3px 0 -3px;
+    overflow: hidden;
+    position: relative;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    color: #FFFFFF;
+}
+
+.desktop ul.pla-hmenu > li.ext > a:hover:before,
+.desktop ul.pla-hmenu > li.ext:hover > a:before,
+.desktop ul.pla-hmenu > li.ext:hover > a.active:before {
+    position: absolute;
+    content: ' ';
+    /* top, right, left - for shadow */
+    top: 3px;
+    right: 3px;
+    left: 3px;
+    /* border + shadow */
+    bottom: -3px;
+    background-color: #EEAF04;
+    border: 0 solid transparent;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+    z-index: -1;
+}
+
+.desktop ul.pla-hmenu > li.ext:hover > ul {
+    padding-top: 5px;
+    /* menu bar padding */
+    margin-top: 0;
+}
+
+.desktop ul.pla-hmenu > li.ext:hover > ul:before {
+    /* border + shadow */
+    top: -3px;
+    clip: rect(9px, auto, auto, auto);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+}
+
+ul.pla-hmenu > li.ext > .ext-r,
+ul.pla-hmenu > li.ext > .ext-l,
+ul.pla-hmenu > li.ext > .ext-m,
+ul.pla-hmenu > li.ext > .ext-off {
+    display: none;
+    z-index: 12;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.desktop ul.pla-hmenu > li.ext > ul {
+    z-index: 13;
+}
+
+.desktop ul.pla-hmenu > li.ext.ext-r:hover > .ext-r,
+.desktop ul.pla-hmenu > li.ext.ext-l:hover > .ext-l {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    /* size of radius
+    * if size if 0 we should now generate script
+    * that adds ext-r and ext-m divs
+    */
+    height: 9px;
+    top: 100%;
+    padding-top: 3px;
+    margin-top: -3px;
+    /* border width + shadow */
+}
+
+.desktop ul.pla-hmenu > li.ext:hover > .ext-r:before,
+.desktop ul.pla-hmenu > li.ext:hover > .ext-l:before {
+    position: absolute;
+    content: ' ';
+    top: 3px;
+    /* border + shadow */
+    bottom: -3px;
+    background-color: #EEAF04;
+    border: 0 solid transparent;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+}
+
+.desktop ul.pla-hmenu > li.ext.ext-r:hover > .ext-r {
+    left: 100%;
+    right: auto;
+    padding-left: 0;
+    margin-left: 0;
+    padding-right: 3px;
+    margin-right: -3px;
+    /* only shadow */
+}
+
+.desktop ul.pla-hmenu > li.ext.ext-r:hover > .ext-r:before {
+    right: 3px;
+    left: -3px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.desktop ul.pla-hmenu > li.ext.ext-l:hover > .ext-l {
+    right: 100%;
+    left: auto;
+    padding-right: 0;
+    margin-right: 0;
+    padding-left: 3px;
+    margin-left: -3px;
+    /* only shadow */
+}
+
+.desktop ul.pla-hmenu > li.ext.ext-l:hover > .ext-l:before {
+    right: -3px;
+    left: 3px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.desktop ul.pla-hmenu > li.ext:hover > .ext-m,
+.desktop ul.pla-hmenu > li.ext:hover > .ext-off {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    height: 6px;
+    top: 100%;
+}
+
+.desktop ul.pla-hmenu > li.ext.ext-r:hover > .ext-m {
+    /* shadow offset */
+    left: -3px;
+    right: 0;
+    /* shadow offset */
+    padding-right: 0;
+    padding-left: 3px;
+}
+
+.desktop ul.pla-hmenu > li.ext:hover > .ext-off {
+    /* shadow offset */
+    left: -3px;
+    right: -3px;
+    /* shadow offset */
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.desktop ul.pla-hmenu > li.ext.ext-l:hover > .ext-m {
+    /* shadow offset */
+    right: -3px;
+    left: 0;
+    /* shadow offset */
+    padding-left: 0;
+    padding-right: 3px;
+}
+
+.desktop ul.pla-hmenu > li.ext.ext-l.ext-r:hover > .ext-m {
+    /* shadow offset */
+    right: -3px;
+    left: -3px;
+    /* shadow offset */
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.desktop ul.pla-hmenu > li.ext:hover > .ext-m:before,
+.desktop ul.pla-hmenu > li.ext:hover > .ext-off:before {
+    position: absolute;
+    content: ' ';
+    top: -3px;
+    bottom: -3px;
+    /* shadow offset */
+    background-color: #EEAF04;
+    border: 0 solid transparent;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+}
+
+.desktop ul.pla-hmenu > li.ext.ext-r:hover > .ext-m:before {
+    right: -3px;
+    left: 3px;
+}
+
+.desktop ul.pla-hmenu > li.ext.ext-l:hover > .ext-m:before {
+    left: -3px;
+    right: 3px;
+}
+
+.desktop ul.pla-hmenu > li.ext.ext-l.ext-r:hover > .ext-m:before {
+    left: -3px;
+    right: -3px;
+}
+
+.pla-layout-wrapper {
+    position: relative;
+    margin: 0 auto 0 auto;
+    z-index: auto !important;
+}
+
+.pla-content-layout {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.pla-content-layout-row {
+    display: table-row;
+}
+
+.pla-layout-cell {
+    display: table-cell;
+    vertical-align: top;
+}
+
+/* need only for content layout in post content */
+.pla-postcontent .pla-content-layout {
+    border-collapse: collapse;
+}
+
+.pla-breadcrumbs {
+    margin: 0 auto;
+}
+
+a.pla-button,
+a.pla-button:link,
+a:link.pla-button:link,
+body a.pla-button:link,
+a.pla-button:visited,
+body a.pla-button:visited,
+input.pla-button,
+button.pla-button {
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: normal;
+    font-style: normal;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-align: center;
+    color: #272727;
+    margin: 0 5px 0 0 !important;
+    overflow: visible;
+    cursor: pointer;
+    text-indent: 0;
+    line-height: 25px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.pla-button img {
+    margin: 0;
+    vertical-align: middle;
+}
+
+.firefox2 .pla-button {
+    display: block;
+    float: left;
+}
+
+input, select, textarea, a.pla-search-button span {
+    vertical-align: middle;
+    font-size: 12px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.pla-block select {
+    width: 96%;
+}
+
+input.pla-button {
+    float: none !important;
+}
+
+.pla-button.active, .pla-button.active:hover {
+    background: #694D02;
+    background: linear-gradient(top, #BA8903 0, #191300 100%) no-repeat;
+    background: -webkit-linear-gradient(top, #BA8903 0, #191300 100%) no-repeat;
+    background: -moz-linear-gradient(top, #BA8903 0, #191300 100%) no-repeat;
+    background: -o-linear-gradient(top, #BA8903 0, #191300 100%) no-repeat;
+    background: -ms-linear-gradient(top, #BA8903 0, #191300 100%) no-repeat;
+    background: linear-gradient(top, #BA8903 0, #191300 100%) no-repeat;
+    -svg-background: linear-gradient(top, #BA8903 0, #191300 100%) no-repeat;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.2);
+    border: 1px solid #6D6D6D;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.pla-button.active, .pla-button.active:hover {
+    color: #E9E9E9 !important;
+}
+
+.pla-button.hover, .pla-button:hover {
+    background: #EEAF04;
+    background: linear-gradient(top, #FCCA40 0, #FBB904 40%, #A17702 100%) no-repeat;
+    background: -webkit-linear-gradient(top, #FCCA40 0, #FBB904 40%, #A17702 100%) no-repeat;
+    background: -moz-linear-gradient(top, #FCCA40 0, #FBB904 40%, #A17702 100%) no-repeat;
+    background: -o-linear-gradient(top, #FCCA40 0, #FBB904 40%, #A17702 100%) no-repeat;
+    background: -ms-linear-gradient(top, #FCCA40 0, #FBB904 40%, #A17702 100%) no-repeat;
+    background: linear-gradient(top, #FCCA40 0, #FBB904 40%, #A17702 100%) no-repeat;
+    -svg-background: linear-gradient(top, #FCCA40 0, #FBB904 40%, #A17702 100%) no-repeat;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.2);
+    border: 1px solid #6D6D6D;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.pla-button.hover, .pla-button:hover {
+    color: #000000 !important;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], textarea {
+    background: #FFFFFF;
+    border: 1px solid rgba(252, 213, 107, 0.2);
+    margin: 0 auto;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], textarea {
+    width: auto;
+    padding: 8px 0;
+    color: #896603 !important;
+    font-size: 13px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: normal;
+    font-style: normal;
+    text-shadow: none;
+}
+
+input.pla-error, textarea.pla-error {
+    background: #FFFFFF;
+    border: 1px solid #E54934;
+    margin: 0 auto;
+}
+
+input.pla-error, textarea.pla-error {
+    color: #896603 !important;
+    font-size: 13px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+form.pla-search input[type="text"] {
+    background: #FFFFFF;
+    border-radius: 0;
+    border: 1px solid #E7ECF0;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #896603 !important;
+    font-size: 13px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+form.pla-search {
+    background-image: none;
+    border: 0;
+    display: block;
+    position: relative;
+    top: 0;
+    padding: 0;
+    margin: 5px;
+    left: 0;
+    line-height: 0;
+}
+
+form.pla-search input, a.pla-search-button {
+    top: 0;
+    right: 0;
+}
+
+form.pla-search > input, a.pla-search-button {
+    bottom: 0;
+    left: 0;
+    vertical-align: middle;
+}
+
+form.pla-search input[type="submit"], input.pla-search-button, a.pla-search-button {
+    background: #FDDA7B;
+    -webkit-border-radius: 0 -1px -1px 0;
+    -moz-border-radius: 0 -1px -1px 0;
+    border-radius: 0 -1px -1px 0;
+    margin: 0 auto;
+}
+
+form.pla-search input[type="submit"], input.pla-search-button, a.pla-search-button {
+    position: absolute;
+    left: auto;
+    display: block;
+    border: 0;
+    top: 1px;
+    bottom: 1px;
+    right: 1px;
+    padding: 0 6px;
+    color: #B18203 !important;
+    font-size: 13px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: normal;
+    font-style: normal;
+    cursor: pointer;
+}
+
+a.pla-search-button span.pla-search-button-text, a.pla-search-button:after {
+    vertical-align: middle;
+}
+
+a.pla-search-button:after {
+    display: inline-block;
+    content: ' ';
+    height: 100%;
+}
+
+a.pla-search-button, a.pla-search-button span,
+a.pla-search-button:visited, a.pla-search-button.visited,
+a.pla-search-button:hover, a.pla-search-button.hover {
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+label.pla-checkbox:before {
+    background: #FFFFFF;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    border-width: 0;
+    margin: 0 auto;
+    width: 16px;
+    height: 16px;
+}
+
+label.pla-checkbox {
+    cursor: pointer;
+    font-size: 13px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 16px;
+    display: inline-block;
+    color: #FEF4D9 !important;
+}
+
+.pla-checkbox > input[type="checkbox"] {
+    margin: 0 5px 0 0;
+}
+
+label.pla-checkbox.active:before {
+    background: #9A9A9A;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    border-width: 0;
+    margin: 0 auto;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+
+label.pla-checkbox.hovered:before {
+    background: #B9B9B9;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    border-width: 0;
+    margin: 0 auto;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+
+label.pla-radiobutton:before {
+    background: #FFFFFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border-width: 0;
+    margin: 0 auto;
+    width: 12px;
+    height: 12px;
+}
+
+label.pla-radiobutton {
+    cursor: pointer;
+    font-size: 13px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 12px;
+    display: inline-block;
+    color: #FEF4D9 !important;
+}
+
+.pla-radiobutton > input[type="radio"] {
+    vertical-align: baseline;
+    margin: 0 5px 0 0;
+}
+
+label.pla-radiobutton.active:before {
+    background: #9A9A9A;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border-width: 0;
+    margin: 0 auto;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+}
+
+label.pla-radiobutton.hovered:before {
+    background: #B9B9B9;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border-width: 0;
+    margin: 0 auto;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+}
+
+.pla-comments {
+    border-top: 1px dotted #848484;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.pla-comments h2 {
+    color: #DEDEDE;
+}
+
+.pla-comment-inner {
+    background: #FFFFFF;
+    background: transparent;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    padding: 5px;
+    margin: 0 auto;
+    margin-left: 94px;
+}
+
+.pla-comment-avatar {
+    float: left;
+    width: 80px;
+    height: 80px;
+    padding: 1px;
+    background: #fff;
+    border: 1px solid #FFFFFF;
+}
+
+.pla-comment-avatar > img {
+    margin: 0 !important;
+    border: none !important;
+}
+
+.pla-comment-content {
+    padding: 10px 0;
+    color: #FEF4D9;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.pla-comment {
+    margin-top: 6px;
+}
+
+.pla-comment:first-child {
+    margin-top: 0;
+}
+
+.pla-comment-header {
+    color: #DEDEDE;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    line-height: 100%;
+}
+
+.pla-comment-header a,
+.pla-comment-header a:link,
+.pla-comment-header a:visited,
+.pla-comment-header a.visited,
+.pla-comment-header a:hover,
+.pla-comment-header a.hovered {
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    line-height: 100%;
+}
+
+.pla-comment-header a, .pla-comment-header a:link {
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    color: #FFFFFF;
+}
+
+.pla-comment-header a:visited, .pla-comment-header a.visited {
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    color: #FFFFFF;
+}
+
+.pla-comment-header a:hover, .pla-comment-header a.hovered {
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    color: #FFFFFF;
+}
+
+.pla-comment-content a,
+.pla-comment-content a:link,
+.pla-comment-content a:visited,
+.pla-comment-content a.visited,
+.pla-comment-content a:hover,
+.pla-comment-content a.hovered {
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.pla-comment-content a, .pla-comment-content a:link {
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    color: #FFFFFF;
+}
+
+.pla-comment-content a:visited, .pla-comment-content a.visited {
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    color: #FFFCF4;
+}
+
+.pla-comment-content a:hover, .pla-comment-content a.hovered {
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    color: #FFFFFF;
+}
+
+.pla-pager {
+    background: #FFFFFF;
+    background: linear-gradient(top, #FFFFFF 0, #8FA5BC 100%) no-repeat;
+    background: -webkit-linear-gradient(top, #FFFFFF 0, #8FA5BC 100%) no-repeat;
+    background: -moz-linear-gradient(top, #FFFFFF 0, #8FA5BC 100%) no-repeat;
+    background: -o-linear-gradient(top, #FFFFFF 0, #8FA5BC 100%) no-repeat;
+    background: -ms-linear-gradient(top, #FFFFFF 0, #8FA5BC 100%) no-repeat;
+    background: linear-gradient(top, #FFFFFF 0, #8FA5BC 100%) no-repeat;
+    -svg-background: linear-gradient(top, #FFFFFF 0, #8FA5BC 100%) no-repeat;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #848484;
+    padding: 5px;
+}
+
+.pla-pager > *:last-child,
+.pla-pager > *:last-child:hover {
+    margin-right: 0;
+}
+
+.pla-pager > span {
+    cursor: default;
+}
+
+.pla-pager > * {
+    background: #B9B9B9;
+    background: linear-gradient(top, #E3E3E3 0, #919191 100%) no-repeat;
+    background: -webkit-linear-gradient(top, #E3E3E3 0, #919191 100%) no-repeat;
+    background: -moz-linear-gradient(top, #E3E3E3 0, #919191 100%) no-repeat;
+    background: -o-linear-gradient(top, #E3E3E3 0, #919191 100%) no-repeat;
+    background: -ms-linear-gradient(top, #E3E3E3 0, #919191 100%) no-repeat;
+    background: linear-gradient(top, #E3E3E3 0, #919191 100%) no-repeat;
+    -svg-background: linear-gradient(top, #E3E3E3 0, #919191 100%) no-repeat;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #B9B9B9;
+    padding: 7px;
+    margin: 0 4px 0 auto;
+    position: relative;
+    display: inline-block;
+    margin-left: 0;
+}
+
+.pla-pager a:link,
+.pla-pager a:visited {
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    text-decoration: none;
+    color: #191919;
+}
+
+.pla-pager .active {
+    background: #B6BFC9;
+    background: linear-gradient(top, #E5E8EB 0, #8796A6 100%) no-repeat;
+    background: -webkit-linear-gradient(top, #E5E8EB 0, #8796A6 100%) no-repeat;
+    background: -moz-linear-gradient(top, #E5E8EB 0, #8796A6 100%) no-repeat;
+    background: -o-linear-gradient(top, #E5E8EB 0, #8796A6 100%) no-repeat;
+    background: -ms-linear-gradient(top, #E5E8EB 0, #8796A6 100%) no-repeat;
+    background: linear-gradient(top, #E5E8EB 0, #8796A6 100%) no-repeat;
+    -svg-background: linear-gradient(top, #E5E8EB 0, #8796A6 100%) no-repeat;
+    border: 1px solid #B9B9B9;
+    padding: 7px;
+    margin: 0 4px 0 auto;
+    color: #FFFFFF;
+}
+
+.pla-pager .more {
+    background: #B9B9B9;
+    background: linear-gradient(top, #E3E3E3 0, #919191 100%) no-repeat;
+    background: -webkit-linear-gradient(top, #E3E3E3 0, #919191 100%) no-repeat;
+    background: -moz-linear-gradient(top, #E3E3E3 0, #919191 100%) no-repeat;
+    background: -o-linear-gradient(top, #E3E3E3 0, #919191 100%) no-repeat;
+    background: -ms-linear-gradient(top, #E3E3E3 0, #919191 100%) no-repeat;
+    background: linear-gradient(top, #E3E3E3 0, #919191 100%) no-repeat;
+    -svg-background: linear-gradient(top, #E3E3E3 0, #919191 100%) no-repeat;
+    border: 1px solid #B9B9B9;
+    margin: 0 4px 0 auto;
+}
+
+.pla-pager a.more:link,
+.pla-pager a.more:visited {
+    color: #312501;
+}
+
+.pla-pager a:hover {
+    background: #9A9A9A;
+    background: linear-gradient(top, #C2C2C2 0, #808080 84%, #737373 100%) no-repeat;
+    background: -webkit-linear-gradient(top, #C2C2C2 0, #808080 84%, #737373 100%) no-repeat;
+    background: -moz-linear-gradient(top, #C2C2C2 0, #808080 84%, #737373 100%) no-repeat;
+    background: -o-linear-gradient(top, #C2C2C2 0, #808080 84%, #737373 100%) no-repeat;
+    background: -ms-linear-gradient(top, #C2C2C2 0, #808080 84%, #737373 100%) no-repeat;
+    background: linear-gradient(top, #C2C2C2 0, #808080 84%, #737373 100%) no-repeat;
+    -svg-background: linear-gradient(top, #C2C2C2 0, #808080 84%, #737373 100%) no-repeat;
+    border: 1px solid #B9B9B9;
+    padding: 7px;
+    margin: 0 4px 0 auto;
+}
+
+.pla-pager a:hover,
+.pla-pager a.more:hover {
+    color: #1F1F1F;
+}
+
+.pla-pager > *:after {
+    margin: 0 0 0 auto;
+    display: inline-block;
+    position: absolute;
+    content: ' ';
+    top: 0;
+    width: 0;
+    height: 100%;
+    right: 0;
+    text-decoration: none;
+}
+
+.pla-pager > *:last-child:after {
+    display: none;
+}
+
+.pla-commentsform {
+    background: #FFFFFF;
+    background: transparent;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 25px;
+    color: #DEDEDE;
+}
+
+.pla-commentsform h2 {
+    padding-bottom: 10px;
+    margin: 0;
+    color: #DEDEDE;
+}
+
+.pla-commentsform label {
+    display: inline-block;
+    line-height: 25px;
+}
+
+.pla-commentsform input:not([type=submit]), .pla-commentsform textarea {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+}
+
+.pla-commentsform .form-submit {
+    margin-top: 10px;
+}
+
+.pla-vmenublock {
+    margin: 20px;
+}
+
+div.pla-vmenublock img {
+    margin: 0;
+}
+
+.pla-vmenublockcontent {
+    margin: 0 auto;
+}
+
+ul.pla-vmenu, ul.pla-vmenu ul {
+    list-style: none;
+    display: block;
+}
+
+ul.pla-vmenu, ul.pla-vmenu li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    line-height: 0;
+}
+
+ul.pla-vmenu {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul.pla-vmenu ul {
+    display: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+ul.pla-vmenu ul.active {
+    display: block;
+}
+
+ul.pla-vmenu > li > a {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    padding: 0 10px;
+    margin: 0 auto;
+    color: #FCCB44;
+    min-height: 34px;
+    line-height: 34px;
+}
+
+ul.pla-vmenu a {
+    display: block;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 12px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    position: relative;
+}
+
+ul.pla-vmenu li {
+    position: relative;
+}
+
+ul.pla-vmenu > li {
+    margin-top: 2px;
+}
+
+ul.pla-vmenu > li > ul {
+    padding: 0;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+ul.pla-vmenu > li:first-child {
+    margin-top: 0;
+}
+
+ul.pla-vmenu > li > a:hover, ul.pla-vmenu > li > a.active:hover {
+    background: #FDDA7B;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+ul.pla-vmenu a:hover, ul.pla-vmenu a.active:hover {
+    color: #434343;
+}
+
+ul.pla-vmenu > li > a.active:hover > span.border-top, ul.pla-vmenu > li > a.active:hover > span.border-bottom {
+    background-color: transparent;
+}
+
+ul.pla-vmenu > li > a.active {
+    padding: 0 10px;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+
+ul.pla-vmenu > li > ul:before {
+    background: #F8FAFB;
+    background: transparent;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    content: ' ';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+ul.pla-vmenu li li a {
+    margin: 0 auto;
+    position: relative;
+}
+
+ul.pla-vmenu ul li {
+    margin: 0;
+    padding: 0;
+}
+
+ul.pla-vmenu li li {
+    position: relative;
+    margin-top: 0;
+}
+
+ul.pla-vmenu ul a {
+    display: block;
+    position: relative;
+    min-height: 22px;
+    overflow: visible;
+    padding: 0;
+    padding-left: 25px;
+    padding-right: 0;
+    z-index: 0;
+    line-height: 22px;
+    color: #A0A0A0;
+    font-size: 11px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+ul.pla-vmenu ul a:visited, ul.pla-vmenu ul a.active:hover, ul.pla-vmenu ul a:hover, ul.pla-vmenu ul a.active {
+    line-height: 22px;
+    color: #A0A0A0;
+    font-size: 11px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+ul.pla-vmenu ul ul a {
+    padding-left: 50px;
+}
+
+ul.pla-vmenu ul ul ul a {
+    padding-left: 75px;
+}
+
+ul.pla-vmenu ul ul ul ul a {
+    padding-left: 100px;
+}
+
+ul.pla-vmenu ul ul ul ul ul a {
+    padding-left: 125px;
+}
+
+ul.pla-vmenu ul > li > a:hover, ul.pla-vmenu ul > li > a.active:hover {
+    background: #6D6D6D;
+    background: rgba(109, 109, 109, 0.4);
+    margin: 0 auto;
+}
+
+ul.pla-vmenu ul li a:hover, ul.pla-vmenu ul li a.active:hover {
+    color: #FCD15A;
+}
+
+ul.pla-vmenu ul a:hover:after {
+    background-position: center;
+}
+
+ul.pla-vmenu ul a.active:hover:after {
+    background-position: center;
+}
+
+ul.pla-vmenu ul a.active:after {
+    background-position: bottom;
+}
+
+ul.pla-vmenu ul > li > a.active {
+    margin: 0 auto;
+}
+
+ul.pla-vmenu ul a.active, ul.pla-vmenu ul a:hover, ul.pla-vmenu ul a.active:hover {
+    color: #A0A0A0;
+}
+
+.pla-block {
+    margin: 20px;
+}
+
+div.pla-block img {
+    border: 1px dotted #FDE39D;
+    margin: 3px;
+}
+
+.pla-blockheader {
+    border: 1px dotted transparent;
+    padding: 10px 5px;
+    margin: 0 auto;
+}
+
+.pla-blockheader .t,
+.pla-blockheader .t a,
+.pla-blockheader .t a:link,
+.pla-blockheader .t a:visited,
+.pla-blockheader .t a:hover {
+    color: #FDD66A;
+    font-size: 14px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-style: normal;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pla-blockcontent {
+    padding: 5px;
+    margin: 0 auto;
+    color: #B4B4B4;
+    font-size: 12px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.pla-blockcontent table,
+.pla-blockcontent li,
+.pla-blockcontent a,
+.pla-blockcontent a:link,
+.pla-blockcontent a:visited,
+.pla-blockcontent a:hover {
+    color: #B4B4B4;
+    font-size: 12px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.pla-blockcontent a, .pla-blockcontent a:link {
+    color: #FCD876;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    text-decoration: underline;
+}
+
+.pla-blockcontent a:visited, .pla-blockcontent a.visited {
+    color: #FDD975;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    text-decoration: underline;
+}
+
+.pla-blockcontent a:hover, .pla-blockcontent a.hover {
+    color: #FCD876;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    text-decoration: none;
+}
+
+.pla-block ul > li:before {
+    content: url('images/blockbullets.png');
+    margin-right: 6px;
+    bottom: 2px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+    line-height: 0;
+    margin-left: -11px;
+}
+
+.opera .pla-block ul > li:before {
+    /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.pla-block li {
+    font-size: 12px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    text-decoration: none;
+    line-height: 125%;
+    color: #B4B4B4;
+}
+
+.pla-block ul > li, .pla-block ol {
+    padding: 0;
+}
+
+.pla-block ul > li {
+    padding-left: 11px;
+}
+
+.pla-post {
+    background: #414141;
+    background: rgba(65, 65, 65, 0.7);
+    padding: 3px;
+    margin: 10px;
+}
+
+a img {
+    border: 0;
+}
+
+.pla-article img, img.pla-article, .pla-block img, .pla-footer img {
+    border: 1px solid #848484;
+    margin: 5px 5px 5px 5px;
+}
+
+.pla-metadata-icons img {
+    border: none;
+    vertical-align: middle;
+    margin: 2px;
+}
+
+.pla-article table, table.pla-article {
+    border-collapse: collapse;
+    margin: 1px;
+}
+
+.pla-post .pla-content-layout-br {
+    height: 0;
+}
+
+.pla-article th, .pla-article td {
+    padding: 2px;
+    border: solid 1px #B9B9B9;
+    vertical-align: top;
+    text-align: left;
+}
+
+.pla-article th {
+    text-align: center;
+    vertical-align: middle;
+    padding: 7px;
+}
+
+pre {
+    overflow: auto;
+    padding: 0.1em;
+}
+
+.preview-cms-logo {
+    border: 0;
+    margin: 1em 1em 0 0;
+    float: left;
+}
+
+.image-caption-wrapper {
+    padding: 5px 5px 5px 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.image-caption-wrapper img {
+    margin: 0 !important;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.image-caption-wrapper div.pla-collage {
+    margin: 0 !important;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.image-caption-wrapper p {
+    font-size: 80%;
+    text-align: right;
+    margin: 0;
+}
+
+.pla-postheadericon:before {
+    content: url('images/postheadericon.png');
+    margin-right: 6px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+    line-height: 0;
+    bottom: auto;
+}
+
+.opera .pla-postheadericon:before {
+    /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.pla-postheader {
+    color: #ECECEC;
+    margin: 10px 0 10px 10px;
+    font-size: 22px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+}
+
+.pla-postheader a,
+.pla-postheader a:link,
+.pla-postheader a:visited,
+.pla-postheader a.visited,
+.pla-postheader a:hover,
+.pla-postheader a.hovered {
+    font-size: 22px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+}
+
+.pla-postheader a, .pla-postheader a:link {
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    text-decoration: none;
+    text-align: left;
+    color: #FCD15B;
+}
+
+.pla-postheader a:visited, .pla-postheader a.visited {
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    text-decoration: none;
+    text-align: left;
+    color: #A8A8A8;
+}
+
+.pla-postheader a:hover, .pla-postheader a.hovered {
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    text-decoration: none;
+    text-align: left;
+    color: #FCC222;
+}
+
+.pla-postcontent ul > li:before, .pla-post ul > li:before, .pla-textblock ul > li:before {
+    content: url('images/postbullets.png');
+    margin-right: 6px;
+    bottom: 2px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+    line-height: 0;
+}
+
+.opera .pla-postcontent ul > li:before, .opera .pla-post ul > li:before, .opera .pla-textblock ul > li:before {
+    /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.pla-postcontent li, .pla-post li, .pla-textblock li {
+    font-size: 12px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    line-height: 200%;
+    color: #D0D0D0;
+    margin: 0 0 0 14px;
+}
+
+.pla-postcontent ul > li, .pla-post ul > li, .pla-textblock ul > li, .pla-postcontent ol, .pla-post ol, .pla-textblock ol {
+    padding: 0;
+}
+
+.pla-postcontent ul > li, .pla-post ul > li, .pla-textblock ul > li {
+    padding-left: 9px;
+}
+
+.pla-postcontent ul > li:before, .pla-post ul > li:before, .pla-textblock ul > li:before {
+    margin-left: -9px;
+}
+
+.pla-postcontent ol, .pla-post ol, .pla-textblock ol, .pla-postcontent ul, .pla-post ul, .pla-textblock ul {
+    margin: 1em 0 1em 14px;
+}
+
+.pla-postcontent li ol, .pla-post li ol, .pla-textblock li ol, .pla-postcontent li ul, .pla-post li ul, .pla-textblock li ul {
+    margin: 0.5em 0 0.5em 14px;
+}
+
+.pla-postcontent li, .pla-post li, .pla-textblock li {
+    margin: 0 0 0 0;
+}
+
+.pla-postcontent ol > li, .pla-post ol > li, .pla-textblock ol > li {
+    /* overrides overflow for "ul li" and sets the default value */
+    overflow: visible;
+}
+
+.pla-postcontent ul > li, .pla-post ul > li, .pla-textblock ul > li {
+    /* makes "ul li" not to align behind the image if they are in the same line */
+    overflow-x: visible;
+    overflow-y: hidden;
+}
+
+blockquote {
+    background: #414141 url('images/postquote.png') no-repeat scroll;
+    border: 1px dotted #614C15;
+    padding: 6px 6px 6px 39px;
+    margin: 0 0 0 20px;
+    color: #D0D0D0;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: normal;
+    font-style: italic;
+    text-align: left;
+    /* makes block not to align behind the image if they are in the same line */
+    overflow: auto;
+    clear: both;
+}
+
+blockquote a, .pla-postcontent blockquote a, .pla-blockcontent blockquote a, .pla-footer blockquote a,
+blockquote a:link, .pla-postcontent blockquote a:link, .pla-blockcontent blockquote a:link, .pla-footer blockquote a:link,
+blockquote a:visited, .pla-postcontent blockquote a:visited, .pla-blockcontent blockquote a:visited, .pla-footer blockquote a:visited,
+blockquote a:hover, .pla-postcontent blockquote a:hover, .pla-blockcontent blockquote a:hover, .pla-footer blockquote a:hover {
+    color: #D0D0D0;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    font-weight: normal;
+    font-style: italic;
+    text-align: left;
+}
+
+/* Override native 'p' margins*/
+blockquote p,
+.pla-postcontent blockquote p,
+.pla-blockcontent blockquote p,
+.pla-footer blockquote p {
+    margin: 0;
+    margin: 2px 0 2px 15px;
+}
+
+.pla-footer {
+    background: #2D2D2D;
+    background: transparent;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+    border-top: 2px solid transparent;
+    padding: 8px;
+    margin: 0 auto;
+    position: relative;
+    color: #FFFFFF;
+    font-size: 10px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    text-align: center;
+}
+
+.pla-footer a,
+.pla-footer a:link,
+.pla-footer a:visited,
+.pla-footer a:hover,
+.pla-footer td,
+.pla-footer th,
+.pla-footer caption {
+    color: #FFFFFF;
+    font-size: 10px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.pla-footer p {
+    padding: 0;
+    text-align: center;
+}
+
+.pla-footer a,
+.pla-footer a:link {
+    color: #FCD771;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    text-decoration: underline;
+}
+
+.pla-footer a:visited {
+    color: #FDD770;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    text-decoration: underline;
+}
+
+.pla-footer a:hover {
+    color: #FDE297;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    text-decoration: none;
+}
+
+.pla-footer h1 {
+    color: #6D6D6D;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.pla-footer h2 {
+    color: #848484;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.pla-footer h3 {
+    color: #FCD56B;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.pla-footer h4 {
+    color: #FDDA7B;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.pla-footer h5 {
+    color: #FDDA7B;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.pla-footer h6 {
+    color: #FDDA7B;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+}
+
+.pla-footer img {
+    border: none;
+    margin: 0;
+}
+
+.pla-rss-tag-icon {
+    background: url('images/footerrssicon.png') no-repeat scroll;
+    margin: 0 auto;
+    min-height: 32px;
+    min-width: 32px;
+    display: inline-block;
+    text-indent: 35px;
+    background-position: left center;
+}
+
+.pla-rss-tag-icon:empty {
+    vertical-align: middle;
+}
+
+.pla-facebook-tag-icon {
+    background: url('images/footerfacebookicon.png') no-repeat scroll;
+    margin: 0 auto;
+    min-height: 32px;
+    min-width: 32px;
+    display: inline-block;
+    text-indent: 35px;
+    background-position: left center;
+}
+
+.pla-facebook-tag-icon:empty {
+    vertical-align: middle;
+}
+
+.pla-twitter-tag-icon {
+    background: url('images/footertwittericon.png') no-repeat scroll;
+    margin: 0 auto;
+    min-height: 32px;
+    min-width: 32px;
+    display: inline-block;
+    text-indent: 35px;
+    background-position: left center;
+}
+
+.pla-twitter-tag-icon:empty {
+    vertical-align: middle;
+}
+
+.pla-footer li {
+    font-size: 13px;
+    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+    line-height: 125%;
+    color: #FFFEFA;
+}
+
+.pla-page-footer,
+.pla-page-footer a,
+.pla-page-footer a:link,
+.pla-page-footer a:visited,
+.pla-page-footer a:hover {
+    font-family: Arial;
+    font-size: 10px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: underline;
+    color: #FFD400;
+}
+
+.pla-page-footer {
+    position: relative;
+    z-index: auto !important;
+    padding: 1em;
+    text-align: center !important;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.pla-lightbox-wrapper {
+    background: #333;
+    background: rgba(0, 0, 0, .8);
+    bottom: 0;
+    left: 0;
+    padding: 0 100px;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    top: 0;
+    z-index: 1000000;
+}
+
+.pla-lightbox,
+.pla-lightbox-wrapper .pla-lightbox-image {
+    cursor: pointer;
+}
+
+.pla-lightbox-wrapper .pla-lightbox-image {
+    border: 6px solid #fff;
+    border-radius: 3px;
+    display: none;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.pla-lightbox-wrapper .pla-lightbox-image.active {
+    display: inline-block;
+}
+
+.pla-lightbox-wrapper .lightbox-error {
+    background: #fff;
+    border: 1px solid #b4b4b4;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #333;
+    height: 80px;
+    opacity: .95;
+    padding: 20px;
+    position: fixed;
+    width: 300px;
+    z-index: 100;
+}
+
+.pla-lightbox-wrapper .loading {
+    background: #fff url('images/preloader-01.gif') center center no-repeat;
+    border: 1px solid #b4b4b4;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #333;
+    height: 32px;
+    opacity: .5;
+    padding: 10px;
+    position: fixed;
+    width: 32px;
+    z-index: 10100;
+}
+
+.pla-lightbox-wrapper .arrow {
+    cursor: pointer;
+    height: 100px;
+    opacity: .5;
+    filter: alpha(opacity=50);
+    position: fixed;
+    width: 82px;
+    z-index: 10003;
+}
+
+.pla-lightbox-wrapper .arrow.left {
+    left: 9px;
+}
+
+.pla-lightbox-wrapper .arrow.right {
+    right: 9px;
+}
+
+.pla-lightbox-wrapper .arrow:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.pla-lightbox-wrapper .arrow.disabled {
+    display: none;
+}
+
+.pla-lightbox-wrapper .arrow-t,
+.pla-lightbox-wrapper .arrow-b {
+    background-color: #fff;
+    border-radius: 3px;
+    height: 6px;
+    left: 26px;
+    position: relative;
+    width: 30px;
+}
+
+.pla-lightbox-wrapper .arrow-t {
+    top: 38px;
+}
+
+.pla-lightbox-wrapper .arrow-b {
+    top: 50px;
+}
+
+.pla-lightbox-wrapper .close {
+    cursor: pointer;
+    height: 22px;
+    opacity: .5;
+    filter: alpha(opacity=50);
+    position: fixed;
+    right: 39px;
+    top: 30px;
+    width: 22px;
+    z-index: 10003;
+}
+
+.pla-lightbox-wrapper .close:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.pla-lightbox-wrapper .close .cw,
+.pla-lightbox-wrapper .close .ccw {
+    background-color: #fff;
+    border-radius: 3px;
+    height: 6px;
+    position: absolute;
+    left: -4px;
+    top: 8px;
+    width: 30px;
+}
+
+.pla-lightbox-wrapper .cw {
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    /* IE 9 */
+    -webkit-transform: rotate(45deg);
+    /* Safari and Chrome */
+    -o-transform: rotate(45deg);
+    /* Opera */
+    -moz-transform: rotate(45deg);
+    /* Firefox */
+}
+
+.pla-lightbox-wrapper .ccw {
+    transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-45deg);
+    /* Safari and Chrome */
+    -o-transform: rotate(-45deg);
+    /* Opera */
+    -moz-transform: rotate(-45deg);
+    /* Firefox */
+}
+
+.pla-lightbox-wrapper .close-alt,
+.pla-lightbox-wrapper .arrow-right-alt,
+.pla-lightbox-wrapper .arrow-left-alt {
+    color: #fff;
+    display: none;
+    font-size: 2.5em;
+    line-height: 100%;
+}
+
+.ie8 .pla-lightbox-wrapper .close-alt,
+.ie8 .pla-lightbox-wrapper .arrow-right-alt,
+.ie8 .pla-lightbox-wrapper .arrow-left-alt {
+    display: block;
+}
+
+.ie8 .pla-lightbox-wrapper .cw,
+.ie8 .pla-lightbox-wrapper .ccw {
+    display: none;
+}
+
+.pla-content-layout .pla-content {
+    margin: 0 auto;
+}
+
+.pla-content-layout .pla-sidebar1 {
+    background: #2D2D2D;
+    background: rgba(45, 45, 45, 0.9);
+    border-left: 1px solid #FDE39D;
+    margin: 0 auto;
+    width: 175px;
+}
+
+/* Begin Additional CSS Styles */
+.pla-blockheader .t, .pla-vmenublockheader .t {
+    white-space: nowrap;
+}
+
+/* End Additional CSS Styles */
